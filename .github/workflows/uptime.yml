@@ -2,7 +2,7 @@ name: TheProject
 on:
   push:
   schedule:
-    - cron: */10 * * * *
+    - cron: "*/10 * * * *"
   jobs:
     pingsite:
       runs-on: ubuntu-latest
